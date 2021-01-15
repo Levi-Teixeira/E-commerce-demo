@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-comerce Demo</title>
+    <link rel="stylesheet" href="front2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <img class="logo" src="Logo.png">
+        <div class="sbox">
+            <input type="text" placeholder="Pesquise filmes..." id="input">
+            <img class="search" src="search.png">
+        </div>
+        <div class="favoritos">
+            <img class="icone" src="icone1.png">
+            <a href="#">Favoritos</a>
+        </div> 
+        <div class="promoções">
+            <img class="icone" src="icone2.png"> 
+        <a href="#">Promoções</a>
+        </div>
+        <p id="bv">Bem-vindo, Levi!</p> 
+        <img class="icone" src="icone3.png" id="user">
+    </div>
+    <div class="banner">  
+        <div class="caixa2"></div>
+        <div class="caixa1">
+            <p id="AA">APROVEITE AGORA</p>
+            <p id="FE">FINALIZA EM:</p>
+            <p id="contagem"></p>
+            <p id="C">CUMPOM: HTMLNAOELINGUAGEM</p>
+            <img class="icone" src="icone4.png" id="I1">
+            <img class="icone" src="icone5.png" id="I2">
+            
+        </div>
+        <img src="money.png" id="b"> 
+        <div id="traço"></div>  
+    </div>
+    </div>
+
+    <div class="filmes">
+        
+        <div class="primeiro">
+            <h1 id="titulo">Top Filmes</h1>
+            <div class="topfilmes">
+                
+            </div>
+            <h1>Filmes</h1>
+            <div class="botões">
+                <input type="button" value="Todos" id="todos" >
+                <input type="button" value="Ação" id="ação" >
+                <input type="button" value="Romance" id="romance" >
+                <input type="button" value="Ficção Científica" id="ficção" >
+                <input type="button" value="Terror" id="terror" >
+            </div>
+            <div class="maispopulares">
+
+            </div>
+                
+
+        </div>
+        <div class= "sacola">
+            <div class="topo">
+                <img class="icone" src="bag.png">
+                <p>Sacola</p>
+            </div>
+            <div class="display">
+                <p>Sua sacola está vazia</p>
+                <p>Adicione filmes agora</p>
+                <img class="icone" src="aguardando1.png">
+            </div>
+            <div class="compraragora">Comprar</div>
+            <div class="bottom">
+                <p id="insira">Insira seu cupom</p>
+                <input type="text" placeholder="Cupom de desconto" id="addcupom">
+                <img class="icone" src="cupom.png">
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

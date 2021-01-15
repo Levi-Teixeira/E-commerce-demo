@@ -1,0 +1,870 @@
+*{
+box-sizing: border-box;
+margin: 0;
+}
+
+body{
+    background-color:  #1c1d1f;
+    min-height: 100vh !important;
+    width: 100vw;
+    display: flex; 
+    flex-direction: column;
+    flex-grow:1;
+   
+    
+}
+
+.header{
+    background-color: #0F1C26;
+    display: flex;
+    width: 100vw;
+    min-width: 1369px;
+    height: 104px;
+    align-items: center;
+    padding-left: 60px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    justify-content: space-evenly;
+   
+}
+
+.logo{
+    display: inline-block;
+    width: 31.67px;
+    height: 27.45px;
+    margin-right: 42px;
+}
+.sbox{
+    position: relative;
+}
+.search{
+    position: absolute;
+    top: 16px;
+    left: 405px;
+}
+
+#input{
+    width: 456px;
+    height: 56px;
+    left: 192px;
+    top: 24px;
+    background: #171B1E;
+    border: 0;
+    padding-left: 13px;
+    margin-right: 92px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    
+}
+
+#user{
+    width: 56px;
+    height: 56px;
+}
+
+.favoritos > a, .promoções > a{
+    text-decoration: none;
+    color: #FDFDFD;
+    margin-right: 90.75px;
+    
+    
+}
+
+.favoritos, .promoções{
+    display: flex;
+}
+
+#bv{
+    text-decoration: none;
+    color: #FDFDFD;
+    margin-left: 20.25px;  
+    margin-right: 8px;
+}
+
+.icone{
+    margin-right: 12px;
+}
+
+
+#b{
+    position: absolute;
+    left: 700px;
+    width: 293.86px;
+    height: 174px;
+   
+} 
+
+
+.caixa1{
+    position: absolute;
+    top: 128px;
+    left: 67px;
+    width: 863px;
+    height: 119px;
+    clip-path: polygon(0 0, 100% 0%, 76% 100%, 0 100%);
+    background: linear-gradient(82.48deg, #FFE4F8 1.63%, #FFFFFF 69.09%);
+}
+
+.caixa2{
+    position: absolute;
+    top: 128px;
+    left: 67px;
+    width: 936px;
+    height: 119px;
+    background: linear-gradient(39.6deg, #EE82D0 0.8%, #FFC8F0 141.63%);
+}
+
+#AA{
+    position: absolute;
+    left: 24px;
+    top:16px;
+    
+    font-family: Quantico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: #0F0915;
+
+}
+
+#C{
+    position: absolute;
+    left:80px;
+    top:80px;
+    font-family: Quantico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #0F0915;
+}
+
+#FE{
+    position: absolute;
+    left:427px;
+    top:24px;
+    font-family: Quantico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #0F0915;
+    
+}
+
+#traço{
+    width: 1px;
+    height: 46px ;
+    background-color: #F294D8;
+    opacity: 0.2;
+    position: absolute;
+    left: 467px;
+    top: 168px;
+    
+}
+
+#I1{
+    padding-left: 13px ;
+    padding-top: 72.5px;
+    
+}
+
+#I2{
+    position: absolute;
+    left:427px;
+    margin-top: 35px;
+    top:40px;
+}
+
+#contagem{
+    position: absolute;
+    left: 475px;
+    top: 80px;
+    font-family: Quantico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #0F0915;
+    /* opacity: 0.8; */
+}
+
+.filmes{
+   display: flex;
+   flex-direction: row;
+   
+}
+
+.item{
+    background-size: 168px 301px;
+    width: 168px;
+    height: 301px;
+    position: relative;
+    
+}
+
+
+.itemTítulo{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: white;
+    position: absolute;
+    bottom: 40px;
+    right: 9px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 150px;
+
+}
+
+.itemTítulo:hover{
+    background-color:  #A785ED;
+    white-space:normal;
+    overflow: visible;
+    padding: 10px 8px;
+}
+
+.item img{
+    position: absolute;
+    top: 8px;
+    right: 9px;
+    
+}
+
+.itemNota{
+    position: absolute;
+    top: 3px;
+    right: 18px;
+    color: rgb(192, 192, 31);
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+}
+
+.botão{
+    height: 30px;
+    width: 90%;
+    background-color:  #A785ED;
+    position: absolute;
+    bottom: 8px;
+    right: 9px;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 10px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 150%;
+    color: white;
+}
+
+#titulo{
+    margin-top: 160px;
+    margin-bottom: 0px;
+}
+
+.sacola{
+    position: sticky ;
+    top:24px;
+    /* margin-right: 50px; */
+    /* margin-left: 1037px; */
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.2);
+    width: 312px;
+    height: fit-content;
+    align-items: center;
+    
+    
+}
+
+.display > p:first-child{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #FDFDFD;
+    margin-top: 32px;
+}
+
+.display > p:nth-child(2){
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #FDFDFD;
+    opacity: 0.8;
+}
+
+.display > p:nth-child(4){
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #FDFDFD;
+    padding-left: 16px;
+    position: absolute;
+    left: 0px;
+    top: 448px;
+}
+
+.display{
+    display: flex;
+    flex-direction: column;
+    width: 312px;
+    padding: 10px;
+}
+
+.display > img{
+    margin-top: 40.37px;
+    margin-bottom: 54.38px;
+    width: 156.43px;
+    height: 192.54px;
+    align-self: center;
+}
+
+.itemSacola{
+    display: flex;
+    position: relative;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.posterSacola{
+    width: 60px;
+    height: 80px;
+    background-size: 60px 80px;
+    position: absolute;
+    left: 0px;
+
+}
+
+.tituloSacola{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 150%;
+    color: #FDFDFD;
+    position: absolute;
+    left: 70px;
+}
+
+.preçoSacola{
+
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 150%;
+    color: #FDFDFD;
+    position: absolute;
+    left: 70px;
+    bottom: 0px;
+}
+
+.painelSacola{
+    display: flex;
+    align-self: center;
+    margin-left: auto;
+    align-items: center;
+}
+
+.painelSacola img{
+    width: 24px;
+    height: 24px;
+    
+}
+
+.painelSacola p{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FDFDFD;
+    margin: 10px;
+}
+
+.compra{
+    display: block;
+    position: relative;
+    margin-top: 21px;
+    justify-self: flex-start;
+    width: 312px;
+}
+
+.imagem{
+    /* position: absolute; */
+    left: 0px;
+    margin-left: 16px ;
+}
+
+#nome{
+    position: absolute;
+    left: 72px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FDFDFD;
+    top: 0px;
+} 
+
+#add {
+    position: absolute;
+    right:78px !important;
+    bottom: 0px;
+}
+
+#qt{
+    position: absolute;
+    width: 38px;
+    height: 24px;
+    right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FDFDFD;
+    bottom: 0px;
+}
+
+#menos{
+    position: absolute;
+    right: 16px;
+    bottom: 0px;
+}
+
+#preço{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FDFDFD;
+    position: absolute;
+    left: 72px;
+    top: 39px;
+}
+
+#insira{
+    
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #FDFDFD;
+    margin-top: 35px;
+}
+
+
+#addcupom{
+    width: 280px;
+    height: 40px;
+    margin-bottom: 24px ;
+    position: relative;
+    background: #0B1217;
+    border: none;
+}
+
+.bottom{
+    position: relative;
+}
+
+.bottom > input{
+    padding-left: 16px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FDFDFD;
+    opacity: 0.4;
+}
+
+.bottom > img{
+    position: absolute;
+    top:65px;
+    left: 260px
+}
+
+.compraragora{
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    width: 280px;
+    height: 56px;
+    background: #E25EBF;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: right;
+    color: #FDFDFD;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.compraragorainativo{
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    width: 280px;
+    height: 56px;
+    background: linear-gradient(0deg, #898989, #898989);
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: right;
+    color: #FDFDFD;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    text-decoration: none;
+}
+
+.topo{
+    width: 312px;
+    height: 72px;
+    background: linear-gradient(0deg, #A785ED, #A785ED), #C4C4C4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+    color: #FDFDFD;
+}
+
+.resumo{
+    background: rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 24px
+}
+
+.toporesumo{
+    width: 312px;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+    color: #FDFDFD;
+    
+}
+
+
+.box{
+    width: 784px;
+    height: 443px;
+    background-color: #171B1E;
+    align-self: center;
+    margin-top: 140px;
+    margin-bottom: 240px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 83.15px;
+    padding-bottom: 46px;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.box > *{
+    align-self: center;
+    justify-self: center;
+    font-family: Manrope;
+    font-style: normal;
+    color: #E8E8E8;
+
+}
+
+.box > :nth-child(2){
+    font-size: 40px;
+}
+
+#voltar{
+    width: 456px;
+    height: 56px;
+    background: #E25EBF;
+    font-weight: bold;
+    font-size: 16px;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.músico{
+    width: 354.58px;
+    height: 345.05px;
+    position: absolute;
+    left: 660px;
+    top: 80px;
+    z-index: 1;
+}
+
+.card1{
+    width: 744px;
+    height: 302px;
+    background: #171B1E;
+    margin-left: 156px;
+    margin-top: 74px;
+    padding-left: 32px;
+    position: relative;
+}
+
+.card1 > h1, .card2 > h1, .card3 > h1 {
+    margin-top: 34px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: #FDFDFD;
+    line-height: 150%;
+    margin-bottom: 32px;
+}
+
+.card1 > p, .card2 > p, .card3 > p{
+    color: #FDFDFD;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%; 
+}
+
+.card1 > input, .card2 > input, .card3 > input {
+    width: 328px;
+    height: 40px;
+    background: #0B1217;
+    color: #FDFDFD;
+    border: none;
+    padding-left: 16px;
+    margin-bottom: 38px;   
+}
+
+#email, #lateral2{
+    position: absolute;
+    top: 132px;
+    left: 384px;
+    
+}
+
+#lateral{
+    position: absolute;
+    top: 115px;
+    left: 384px;
+}
+
+.card2{
+    width: 744px;
+    height: 400px;
+    background: #171B1E;
+    margin-left: 156px;
+    margin-top: 16px;
+    padding-left: 32px;
+    position: relative;
+    z-index: 1;
+}
+
+.aguardando{
+    
+    z-index: 0; 
+    position: absolute;
+    top: 503px;
+}
+
+#bairro, #cvv{
+    position: absolute;
+    top: 228px;
+    left: 384px;
+}
+
+#lateral3{
+    position: absolute;
+    top: 211px;
+    left: 384px;
+}
+
+.card3{
+    width: 744px;
+    height: 302px;
+    background: #171B1E;
+    margin-left: 156px;
+    margin-top: 16px;
+    margin-bottom: 49px;
+    padding-left: 32px;
+    position: relative;
+}
+
+
+.primeiro > h1{
+    margin-top: 40px;
+    margin-left: 67px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+    color: #FDFDFD;
+    margin-bottom: 16px;
+}
+
+.filmes > h1:first-child{
+    margin-top: 200px;
+}
+
+.primeiro > .botões{
+
+    margin-left: 67px;
+    max-width: 936px;
+    min-width: 936px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botões > input{
+    width: 168px;
+    height: 38px;
+    border: 2px solid #5a5555;
+    color: #5a5555;
+    background: #171B1E;
+    font-family: sans-serif;;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px; 
+}
+
+.botões > input:hover{
+    background: #171B1E;
+    border: 2px solid #E183C8;
+    color: #E183C8;
+}
+
+.maispopulares, .topfilmes{
+    width: 960px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 67px;
+    /* justify-content: space-between; */
+    
+}
+
+.maispopulares > div, .topfilmes > div{
+    position: relative;
+    width: 168px;
+    height: 301px;
+    margin-top: 24px;
+    margin-right: 24px;
+}
+
+.estrela1{
+    width: 16px;
+    height: 16px;
+    margin-left: 9px;
+    margin-top: 12px;
+}
+
+.comprar{
+    position: absolute;
+    top: 270px;
+    margin-left: 7px;
+    width: 152px;
+    height: 26px;
+    background: #A785ED;
+    border: none;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 150%;
+    color: #EEE6FF;
+}
+
+.titulo{
+
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FDFDFD;
+    position: absolute;
+    top: 240px;
+    margin-left: 7px;
+    max-width: 160px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+
+}
+
+.titulo:hover {
+    text-overflow: clip;
+    max-width: none;
+    background-color: #A785ED;
+    padding: 2px;
+    z-index: 1;
+}
+
+.nota{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 150%;
+    color: #FBCD6E;
+    position: absolute;
+    top: 13px;
+    left: 140px ;
+}
+
+.estrela2{
+    position: absolute;
+    left: 130px;  
+    top: 18.5px;  
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
